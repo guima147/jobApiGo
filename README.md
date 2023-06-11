@@ -19,8 +19,22 @@ Método: GET
 URL: http://localhost:8080/api/v1/pedido
 
 Adicionar um item ao pedido:
+
 Método: POST
 URL: http://localhost:8080/api/v1/pedido/123/item
-Cabeçalhos:
-Content-Type: application/json
+Cabeçalhos:Content-Type: application/json
 
+Obter um item do pedido pelo número e índice:
+
+Método: GET
+URL: http://localhost:8080/api/v1/pedido/123/item/1
+
+Obter todos os itens do pedido pelo número:
+
+Método: GET
+URL: http://localhost:8080/api/v1/pedido/123/item
+
+Obter todos os itens do pedido pelo produto:
+
+Método: GET
+URL: http://localhost:8080/api/v1/pedido/item?produto=Camiseta
