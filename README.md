@@ -13,12 +13,12 @@ Content-Type: application/json]
 
 Método: GET
 URL: http://localhost:8080/api/v1/pedido/123
-Obter todos os pedidos:
 
+Obter todos os pedidos:
 Método: GET
 URL: http://localhost:8080/api/v1/pedido
-Adicionar um item ao pedido:
 
+Adicionar um item ao pedido:
 Método: POST
 URL: http://localhost:8080/api/v1/pedido/123/item
 Cabeçalhos:
