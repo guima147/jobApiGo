@@ -5,6 +5,7 @@ go get -u github.com/gin-gonic/gin <br>
 ao rodar o projeto :  go run api.go  sera instalado dependecias do go-sqlite3
 
 # metodos de exemplo
+Criar um pedido:
 
 Método: POST
 URL: http://localhost:8080/api/v1/pedido
