@@ -13,7 +13,7 @@ Cabeçalhos:
 Content-Type: application/json]
 
 Método: GET
-URL: http://localhost:8080/api/v1/pedido/123
+URL: http://localhost:8080/api/v1/pedido/100
 
 Obter todos os pedidos:
 Método: GET
@@ -22,20 +22,20 @@ URL: http://localhost:8080/api/v1/pedido
 Adicionar um item ao pedido:
 
 Método: POST
-URL: http://localhost:8080/api/v1/pedido/123/item
+URL: http://localhost:8080/api/v1/pedido/100/item
 Cabeçalhos:Content-Type: application/json
 
 Obter um item do pedido pelo número e índice:
 
 Método: GET
-URL: http://localhost:8080/api/v1/pedido/123/item/1
+URL: http://localhost:8080/api/v1/pedido/100/item/1
 
 Obter todos os itens do pedido pelo número:
 
 Método: GET
-URL: http://localhost:8080/api/v1/pedido/123/item
+URL: http://localhost:8080/api/v1/pedido/100/item
 
 Obter todos os itens do pedido pelo produto:
 
 Método: GET
-URL: http://localhost:8080/api/v1/pedido/item?produto=Camiseta
+URL: http://localhost:8080/api/v1/pedido/item?produto=chinelo
